@@ -63,6 +63,11 @@ header{
     background: white;
     border-radius: 30px;
 }
+.social_icones{
+    display: flex;
+    flex-direction: column;
+}
 
-
-    
+i{
+    color: red;
+}
