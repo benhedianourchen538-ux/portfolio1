@@ -154,9 +154,10 @@ img {
     box-shadow: 4px 0px 4px 4px #c506b5;
     transition: .10s;
     height: 5vb;
-    width: 10vb;
+    width: 15vb;
     position: relative;
-    left: 45vb;
+    left: 10vb;
+    top: 5vb;
     
     
     
@@ -183,15 +184,27 @@ img {
 .contact a {
     color: rgb(245, 238, 238);
     position: relative;
-    left: 30vb;
+    left: 8vb;
 
 
 }
-.localisation {
+.loc{
+    color: rgb(245, 238, 238);
+    position: relative;
+    left: 30vb;
+    
+
+}
+.ph{
     color: rgb(245, 238, 238);
     position: relative;
     left: 30vb;
 }
 
+
+.portfolio{
+    position: relative;
+    left: 15vb;
+}
 
 
