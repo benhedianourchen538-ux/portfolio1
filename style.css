@@ -36,7 +36,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    font-size: medium;
+    font-size: large;
     color: rgb(218, 8, 218);
     
     
@@ -123,14 +123,14 @@ img {
     padding-left: 50px;
     padding-top: 220px;
     color: aliceblue;
-    font-size: larger;
+    font-size: x-large;
 }
 .service p{
     display: list-item;
-    padding-left: 50px;
+    padding-left: 90px;
     padding-top: 220px;
     color: aliceblue;
-    font-size: larger;
+    font-size: x-large;
     position: relative;
     
 }
@@ -173,10 +173,10 @@ img {
 }
 .contact{
     display: list-item;
-    padding-left: 50px;
-    padding-top: 220px;
+    padding-left: 90px;
+    padding-top: 150px;
     color: rgb(221, 226, 230);
-    font-size: larger;
+    font-size:x-large ;
     position: relative;
     
 }
@@ -185,6 +185,7 @@ img {
     color: rgb(245, 238, 238);
     position: relative;
     left: 8vb;
+
 
 
 }
@@ -207,4 +208,37 @@ img {
     left: 15vb;
 }
 
+footer{
+    display:flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height:70px;
+    background-color: rgba(156, 41, 143, 0.128);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(227, 221, 221, 0.356);
+    z-index: 999;
+}
+
+footer h1{
+    font-size: 10spx;
+    color: aliceblue;
+}
+.image{
+    position: relative;
+    left: 70vb;
+    bottom: 30vb;
+
+    
+}
+.image2{
+    position: relative;
+    left: 40vb;
+    
+    bottom: 5vb;
+
+}
 
